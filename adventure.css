@@ -374,7 +374,7 @@ section {
 
     .nav-links {
         transition: 0.4s;
-        /* margin-top: -990px; */
+        margin-top: -990px;
         background-color: rgb(86, 125, 137);
         flex-direction: column;
         height: 100vh;
