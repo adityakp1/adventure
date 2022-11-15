@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(163, 161, 161);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=705&q=80');
 }
 
 .navbar {
@@ -14,7 +14,7 @@ body {
     align-items: center;
     /* justify-content: flex-end; */
     flex-direction: column;
-    color: #27276d;
+    color: rgb(245, 245, 245);
 }
 
 .navbar h1 {
@@ -23,10 +23,12 @@ body {
 }
 
 .para {
-    color: black;
+    color: whitesmoke;
     text-align: center;
     margin-top: 30px;
-    font-size: 3.93vmin;
+    word-spacing: .6rem;
+    font-family: 'Kaushan Script';
+    font-size: 4.7vmin;
 }
 
 
@@ -36,14 +38,17 @@ body {
 
 .start {
     font-weight: bold;
-    color: rgb(16, 48, 116);
+    color: rgb(100, 144, 239);
+    /* font-family: 'Kaushan Script'; */
     text-transform: uppercase;
     font-size: 5vmin;
 }
 
 .notice {
-    font-size: 3.2vmin;
-    color: rgb(107, 107, 107);
+    text-align: center;
+    font-size: 3.8vmin;
+    word-spacing: .15rem;
+    color: whitesmoke;
     margin-top: 80px;
 }
 
@@ -53,7 +58,7 @@ body {
     border-radius: 10px;
     margin: 3px auto;
     margin-bottom: 10px;
-    background-color: rgb(0, 170, 255);
+    background-color: rgb(223, 220, 148);
 }
 
 .gallery-content {
@@ -87,16 +92,14 @@ body {
 .copyright {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #484872;
-    text-align: center;
+    background-color: #161628;
     color: whitesmoke;
+    padding: 1rem;
 }
 
 .copyright p {
-    font-size: 4vmin;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-size: 3.5vmin;
+    margin-left: .27rem;
 }
 
 .text-color{
@@ -107,7 +110,8 @@ body {
 
 @media only screen and (max-width:600px) {
     .gallery a {
-        width: 80%;
+        width: 88%;
+        margin: 25px;
     }
 }
 
